@@ -1,6 +1,6 @@
 # Guideline gán nhãn — v1.0 — Thống nhất nhóm
 
-> Bản đặc tả chung v1.0 đã được toàn bộ các thành viên trong nhóm (101, 102, 103, 104) thảo luận, giải quyết mâu thuẫn và chốt thống nhất ở Pha 2. Bản này được khóa cứng để áp dụng cho đợt gán nhãn độc lập ở Pha 3.
+> Bản đặc tả chung v1.0 đã được toàn bộ các thành viên trong nhóm (101, 102, 103, 104) thảo luận, giải quyết mâu thuẫn và chốt thống nhất ở Pha 2. Trước khi chốt nhãn độc lập ở Pha 3, nhóm điều chỉnh các mốc `occluded_level` thành 25%, 50%, 75%. Mọi thành viên phải dùng cùng bảng mốc bên dưới; nhãn nháp đã vẽ theo mốc cũ cần được rà và sửa trước khi đo IAA.
 
 - Phiên bản: `v1.0` (Agreed)
 - Ngày: 2026-11-16
@@ -38,12 +38,12 @@
 
 ### Thuộc tính đối tượng
 
-1. **`occluded_level`** (Mức độ che khuất — định lượng thống nhất theo các mốc **30%, 60%, 90%** diện tích bị che):
-   - `0` (Không bị che): Bị che < 10% (nhìn thấy rõ ràng > 90% diện tích vật thể).
-   - `1` (Che nhẹ): Bị che từ 10% đến 30% diện tích (nhìn thấy từ 70% đến 90%).
-   - `2` (Che vừa/nhiều): Bị che từ 30% đến 60% diện tích (nhìn thấy từ 40% đến 70%).
-   - `3` (Che nghiêm trọng): Bị che từ 60% đến 90% diện tích (chỉ nhìn thấy từ 10% đến 40% nhưng vẫn nhận dạng chắc chắn).
-   *(Vật thể bị che > 90% không còn đủ đặc trưng nhận diện thì không gán).*
+1. **`occluded_level`** (ước lượng tỉ lệ diện tích vật thể bị vật khác che khuất; các mốc thống nhất là **25%, 50%, 75%**):
+   - `0`: Bị che từ 0% đến **dưới 25%**.
+   - `1`: Bị che từ **25% đến dưới 50%**.
+   - `2`: Bị che từ **50% đến dưới 75%**.
+   - `3`: Bị che từ **75% đến dưới 100%**, nhưng vẫn nhận dạng chắc chắn đối tượng và lớp.
+   - Nếu không còn nhận dạng chắc chắn thì **không gán**, bất kể ước lượng tỉ lệ che khuất. Đúng tại mốc 25%, 50% hoặc 75% thì chọn mức cao hơn.
 
 2. **`truncated`** (Cắt mép ảnh):
    - `no`: Toàn bộ vật thể nằm trọn vẹn bên trong khung ảnh.
@@ -115,3 +115,4 @@
 |---|---|---|---|
 | `v0` | — | Bản khung sơ sài ban đầu từ giảng viên (6 lớp, không ngưỡng định lượng, không có ca khó). | Bắt đầu lab. |
 | `v1.0` | 2026-11-16 | Thống nhất 10 lớp: bổ sung `bus`, `three_wheeler`, `bicycle`, tách `rider` khỏi `person`; định lượng `occluded_level` theo mốc 30%, 60%, 90%; bổ sung quy tắc gắn mã `R-01` đến `R-08`; giải quyết triệt để ca xe chở xe (`img_002`), đám đông (`img_021`), hàng quá khổ (`img_035`) và loại trừ vật không thật. | Thảo luận và biểu quyết chốt mâu thuẫn giữa 4 thành viên (101, 102, 103, 104) ở Pha 2. |
+| `v1.0` (điều chỉnh trước khi chốt nhãn Pha 3) | 2026-11-16 | Đổi mốc `occluded_level` thành 25%, 50%, 75%; mức `3` áp dụng từ 75% đến dưới 100% nếu vẫn nhận dạng chắc chắn. Các nhãn nháp theo mốc cũ phải rà lại; tên thuộc tính và bốn giá trị `0`–`3` giữ nguyên. | Quyết định cập nhật của nhóm trước khi tổng hợp nhãn độc lập và đo IAA. |

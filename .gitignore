@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# Local Codex handoff notes; not part of the group submission.
+/CODEX_CONTEXT.md
