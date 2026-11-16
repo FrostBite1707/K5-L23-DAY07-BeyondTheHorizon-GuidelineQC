@@ -1,8 +1,8 @@
-# Guideline gán nhãn — v1.0 — Thống nhất nhóm
+# Guideline gán nhãn — v2.0 — Thống nhất nhóm
 
-> Bản đặc tả chung v1.0 đã được toàn bộ các thành viên trong nhóm (101, 102, 103, 104) thảo luận, giải quyết mâu thuẫn và chốt thống nhất ở Pha 2. Trước khi chốt nhãn độc lập ở Pha 3, nhóm điều chỉnh các mốc `occluded_level` thành 25%, 50%, 75%. Mọi thành viên phải dùng cùng bảng mốc bên dưới; nhãn nháp đã vẽ theo mốc cũ cần được rà và sửa trước khi đo IAA.
+> Bản guideline chung v2.0 cập nhật các mốc `occluded_level` sau khi nhóm rà soát v1.0. Mọi thành viên dùng cùng bảng mốc bên dưới. Nhãn đã gán theo v1.0 cần được rà và cập nhật trước khi tính IAA hoặc bàn giao.
 
-- Phiên bản: `v1.0` (Agreed)
+- Phiên bản: `v2.0`
 - Ngày: 2026-11-16
 - Thành viên tham gia thống nhất: 101, 102, 103, 104
 
@@ -23,14 +23,14 @@
 |---|---|---|---|
 | `car` | Xe ô tô con từ 4 đến 7 chỗ (sedan, SUV, hatchback, coupe) và xe bán tải (pickup) không có nắp thùng cao. | Xe con gia đình, xe taxi 4 bánh (`img_001`, `img_003`, `img_006`, `img_010`). | Xe mô hình đồ chơi (`img_038`), tượng xe (`img_027`), xe tải (`truck`). |
 | `truck` | Xe tải chở hàng, xe ben, đầu kéo, xe chuyên dụng cỡ lớn có cabin tách biệt với thùng hàng. | Xe tải chở hàng (`img_001`), xe đầu kéo 2 tầng chở ô tô con (`img_002`). | Xe bán tải nhỏ (`car`), xe van thùng kín (`van`). |
-| `van` | Xe ô tô thùng kín liền khối cỡ nhỏ hoặc vừa chở hàng nhẹ hoặc chở khách dưới 16 chỗ. | Xe van giao hàng, xe cứu thương cỡ nhỏ (`img_005`, `img_008`, `img_025`). | Xe buýt lớn (`bus`), xe tải thùng rời (`truck`). |
-| `bus` | Xe chở khách công cộng cỡ lớn (> 16 chỗ ngồi) chạy tuyến nội đô hoặc liên tỉnh. | Xe buýt nội đô, xe khách du lịch (`img_009`, `img_031`, `img_037`, `img_040`). | Xe minivan dưới 16 chỗ (`van`). |
+| `van` | Xe ô tô thùng kín liền khối cỡ nhỏ hoặc vừa chở hàng nhẹ hoặc chở khách tối đa 16 chỗ. | Xe van giao hàng, xe cứu thương cỡ nhỏ (`img_005`, `img_008`, `img_025`). | Xe buýt lớn trên 16 chỗ (`bus`), xe tải thùng rời (`truck`). |
+| `bus` | Xe chở khách công cộng cỡ lớn (trên 16 chỗ ngồi) chạy tuyến nội đô hoặc liên tỉnh. | Xe buýt nội đô, xe khách du lịch (`img_009`, `img_031`, `img_037`, `img_040`). | Xe minivan tối đa 16 chỗ (`van`). |
 | `three_wheeler` | Xe cơ giới ba bánh có động cơ dùng để chở khách hoặc chở hàng: xe tuk-tuk, xe lam, xe lôi, xe ba gác máy. | Xe tuk-tuk chở khách, xe ba gác máy chở hàng (`img_004`, `img_016`, `img_035`). | Xe máy 2 bánh (`motorcycle`), xe xích lô đạp chân (`bicycle`). |
 | `motorcycle` | Xe mô tô, xe gắn máy 2 bánh có động cơ (xăng hoặc điện). | Xe máy Honda/Yamaha chạy trên đường (`img_001`, `img_005`, `img_026`). | Xe đạp không động cơ (`bicycle`), xe máy điện đồ chơi trẻ em. |
 | `bicycle` | Xe đạp và xe xích lô (xe 3 bánh đạp chân), kể cả xe đạp điện có bàn đạp. Gán cả khi có người hoặc không có người. | Xe đạp dựng ven đường, xích lô chở khách (`img_003`, `img_006`, `img_023`, `img_029`, `img_034`, `img_039`). | Xe máy có động cơ (`motorcycle`), xe đẩy tay, xe nôi. |
 | `rider` | Người đang điều khiển hoặc ngồi trên phương tiện di chuyển hở (xe máy, xe đạp, xe 3 bánh, xích lô, thùng hở). | Người lái xe máy, hành khách ngồi sau xe máy, người đạp xe đạp, người lái tuk-tuk (`img_001`, `img_005`, `img_021`). | Người đi bộ hoặc đứng trên vỉa hè (`person`), người ngồi trong ô tô kín. |
 | `person` | Con người thật đang đi bộ, đứng bên đường hoặc không ngồi trên phương tiện. | Người đi bộ sang đường, người đứng đợi bên vỉa hè, người gánh hàng rong (`img_001`, `img_003`). | Người lái xe máy/xe đạp (`rider`), tượng đồng (`img_011`), tượng đá (`img_017`), ma-nơ-canh (`img_033`), ảnh quảng cáo (`img_018`). |
-| `ignore_region` | Vùng không cần gán từng vật: cụm người/xe quá đông đúc ở hậu cảnh xa không thể tách rời hoặc cụm vật thể nhỏ (< 20 px). | Dãy xe máy hoặc đám đông chen chúc ở hậu cảnh ngã tư (`img_021`), nền mờ chuyển động mạnh (`img_014`). | Các đối tượng đứng độc lập nhìn rõ ở tiền cảnh (bắt buộc gán box riêng). |
+| `ignore_region` | Vùng không cần gán từng vật: cụm người/xe quá đông đúc ở hậu cảnh xa không thể tách rời hoặc cụm vật thể có chiều cao dưới 20 px. | Dãy xe máy hoặc đám đông chen chúc ở hậu cảnh ngã tư (`img_021`), vùng nhòe chuyển động mạnh không nhận dạng được (`img_014`). | Các đối tượng đứng độc lập nhìn rõ ở tiền cảnh (bắt buộc gán box riêng). |
 
 *Lưu ý đối với người ngồi trong xe*:
 - Người ngồi trong khoang kín của ô tô (`car`, `truck`, `van`, `bus`) nhìn qua kính: **Không gán box**.
@@ -38,12 +38,14 @@
 
 ### Thuộc tính đối tượng
 
-1. **`occluded_level`** (ước lượng tỉ lệ diện tích vật thể bị vật khác che khuất; các mốc thống nhất là **25%, 50%, 75%**):
-   - `0`: Bị che từ 0% đến **dưới 25%**.
-   - `1`: Bị che từ **25% đến dưới 50%**.
-   - `2`: Bị che từ **50% đến dưới 75%**.
-   - `3`: Bị che từ **75% đến dưới 100%**, nhưng vẫn nhận dạng chắc chắn đối tượng và lớp.
-   - Nếu không còn nhận dạng chắc chắn thì **không gán**, bất kể ước lượng tỉ lệ che khuất. Đúng tại mốc 25%, 50% hoặc 75% thì chọn mức cao hơn.
+1. **`occluded_level`** (ước lượng tỉ lệ diện tích vật thể bị vật khác che khuất; các mốc thống nhất là **10%, 30%, 60%**):
+   - Ước lượng phần diện tích toàn vật thể bị **che bởi vật thể khác**; dùng phần nhìn thấy và hình dáng dự kiến để ước lượng. Không cần đo chính xác từng pixel.
+   - `0`: Bị che từ **0% đến dưới 10%** (hầu như không bị che).
+   - `1`: Bị che từ **10% đến dưới 30%**.
+   - `2`: Bị che từ **30% đến dưới 60%**.
+   - `3`: Bị che từ **60% đến dưới 100%**, nhưng vẫn nhận dạng chắc chắn đối tượng và lớp.
+   - Tại đúng mốc 10%, 30% hoặc 60%, chọn mức cao hơn. Nếu không nhận dạng chắc chắn được đối tượng và lớp thì không gán, bất kể ước lượng phần bị che.
+   - `occluded_level` chỉ tính che khuất bởi vật thể khác. Nhòe, thiếu sáng, mất nét và phần nằm ngoài mép ảnh không tính là che khuất; phần cắt mép được ghi bằng `truncated`.
 
 2. **`truncated`** (Cắt mép ảnh):
    - `no`: Toàn bộ vật thể nằm trọn vẹn bên trong khung ảnh.
@@ -78,10 +80,10 @@
   - Đối với các đối tượng ở tiền cảnh nhìn rõ (chiều cao ≥ 20 px, thấy rõ ≥ 30%): Bắt buộc gán từng box riêng lẻ cho từng người (`rider`/`person`) và xe.
   - Đối với phần đám đông hoặc dãy xe ùn tắc dày đặc ở hậu cảnh xa không thể tách rời: Vẽ 1–3 box **`ignore_region`** bao quanh cụm đông. Tuyệt đối **không được bỏ trống cả ảnh**.
 - **`R-07` (Minimum Box Size)**:
-  - Vật thể có chiều cao hoặc chiều rộng nhỏ hơn **20 pixel**: Không gán box độc lập (nếu nằm trong cụm đông thì đưa vào `ignore_region`).
+  - Vật thể có chiều cao nhỏ hơn **20 pixel**: Không gán box độc lập (nếu nằm trong cụm đông thì đưa vùng cụm vào `ignore_region`). Ngưỡng này áp dụng theo chiều cao, không riêng theo chiều rộng.
 - **`R-08` (Motion Blur `img_014.jpg`)**:
-  - Đối tượng ở tiền cảnh nhìn rõ: gán bình thường.
-  - Vùng nhòe chuyển động mạnh không nhận dạng được: vẽ box `ignore_region` + tick `can_review`.
+  - Xe bị nhòe một phần nhưng vẫn nhận dạng chắc chắn được lớp: gán box ôm phần xe nhìn thấy, không tính vùng nhòe là bị che khuất; đặt `occluded_level` theo phần bị vật khác che (nếu có). Bật `can_review` nếu nhòe làm ranh giới box khó xác định.
+  - Đối tượng bị nhòe mạnh đến mức không nhận dạng chắc chắn được lớp: gán vùng đó là `ignore_region` và bật `can_review`.
 
 ---
 
@@ -114,5 +116,5 @@
 | Phiên bản | Ngày | Thay đổi chính | Cơ sở thay đổi |
 |---|---|---|---|
 | `v0` | — | Bản khung sơ sài ban đầu từ giảng viên (6 lớp, không ngưỡng định lượng, không có ca khó). | Bắt đầu lab. |
-| `v1.0` | 2026-11-16 | Thống nhất 10 lớp: bổ sung `bus`, `three_wheeler`, `bicycle`, tách `rider` khỏi `person`; định lượng `occluded_level` theo mốc 30%, 60%, 90%; bổ sung quy tắc gắn mã `R-01` đến `R-08`; giải quyết triệt để ca xe chở xe (`img_002`), đám đông (`img_021`), hàng quá khổ (`img_035`) và loại trừ vật không thật. | Thảo luận và biểu quyết chốt mâu thuẫn giữa 4 thành viên (101, 102, 103, 104) ở Pha 2. |
-| `v1.0` (điều chỉnh trước khi chốt nhãn Pha 3) | 2026-11-16 | Đổi mốc `occluded_level` thành 25%, 50%, 75%; mức `3` áp dụng từ 75% đến dưới 100% nếu vẫn nhận dạng chắc chắn. Các nhãn nháp theo mốc cũ phải rà lại; tên thuộc tính và bốn giá trị `0`–`3` giữ nguyên. | Quyết định cập nhật của nhóm trước khi tổng hợp nhãn độc lập và đo IAA. |
+| `v1.0` | 2026-11-16 | Thống nhất 10 lớp; tách `rider` khỏi `person`; quy định các thuộc tính và quy tắc gán nhãn `R-01` đến `R-08`. | Bản guideline chung ban đầu được nhóm chốt ở Pha 2. |
+| `v2.0` | 2026-11-16 | Chuyển các khoảng `occluded_level` thành 0–<10%, 10–<30%, 30–<60% và 60–<100%; làm rõ chỉ tính che bởi vật thể khác, tách nhòe và cắt mép khỏi mức che khuất, bổ sung cách xử lý xe nhòe một phần. Nhãn theo v1.0 cần được rà lại. | Rà soát để các mức liên tục, không chồng lấn và phân biệt rõ vật gần như không bị che với vật bị che đáng kể. |
