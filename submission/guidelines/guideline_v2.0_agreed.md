@@ -38,13 +38,13 @@
 
 ### Thuộc tính đối tượng
 
-1. **`occluded_level`** (ước lượng tỉ lệ diện tích vật thể bị vật khác che khuất; các mốc thống nhất là **10%, 30%, 60%**):
+1. **`occluded_level`** (ước lượng tỉ lệ diện tích vật thể bị vật khác che khuất; các mốc thống nhất là **10%, 30%, 60% và 90%**):
    - Ước lượng phần diện tích toàn vật thể bị **che bởi vật thể khác**; dùng phần nhìn thấy và hình dáng dự kiến để ước lượng. Không cần đo chính xác từng pixel.
    - `0`: Bị che từ **0% đến dưới 10%** (hầu như không bị che).
    - `1`: Bị che từ **10% đến dưới 30%**.
    - `2`: Bị che từ **30% đến dưới 60%**.
-   - `3`: Bị che từ **60% đến dưới 100%**, nhưng vẫn nhận dạng chắc chắn đối tượng và lớp.
-   - Tại đúng mốc 10%, 30% hoặc 60%, chọn mức cao hơn. Nếu không nhận dạng chắc chắn được đối tượng và lớp thì không gán, bất kể ước lượng phần bị che.
+   - `3`: Bị che từ **60% đến dưới 90%**, nhưng vẫn nhận dạng chắc chắn đối tượng và lớp.
+   - Tại đúng mốc 10%, 30% hoặc 60%, chọn mức cao hơn. Nếu bị che **90% trở lên** hoặc không nhận dạng chắc chắn được đối tượng và lớp thì không gán.
    - `occluded_level` chỉ tính che khuất bởi vật thể khác. Nhòe, thiếu sáng, mất nét và phần nằm ngoài mép ảnh không tính là che khuất; phần cắt mép được ghi bằng `truncated`.
 
 2. **`truncated`** (Cắt mép ảnh):
@@ -117,4 +117,4 @@
 |---|---|---|---|
 | `v0` | — | Bản khung sơ sài ban đầu từ giảng viên (6 lớp, không ngưỡng định lượng, không có ca khó). | Bắt đầu lab. |
 | `v1.0` | 2026-11-16 | Thống nhất 10 lớp; tách `rider` khỏi `person`; quy định các thuộc tính và quy tắc gán nhãn `R-01` đến `R-08`. | Bản guideline chung ban đầu được nhóm chốt ở Pha 2. |
-| `v2.0` | 2026-11-16 | Chuyển các khoảng `occluded_level` thành 0–<10%, 10–<30%, 30–<60% và 60–<100%; làm rõ chỉ tính che bởi vật thể khác, tách nhòe và cắt mép khỏi mức che khuất, bổ sung cách xử lý xe nhòe một phần. Nhãn theo v1.0 cần được rà lại. | Rà soát để các mức liên tục, không chồng lấn và phân biệt rõ vật gần như không bị che với vật bị che đáng kể. |
+| `v2.0` | 2026-11-17 | Chốt các khoảng `occluded_level`: 0–<10%, 10–<30%, 30–<60% và 60–<90%; vật bị che từ 90% trở lên không gán. Làm rõ chỉ tính che bởi vật thể khác, tách nhòe và cắt mép khỏi mức che khuất, bổ sung cách xử lý xe nhòe một phần. Nhãn theo mốc cũ cần được rà lại. | Rà soát để các mức liên tục, không chồng lấn và loại các vật chỉ còn phần nhìn thấy quá nhỏ. |
