@@ -2,7 +2,7 @@
 
 - Tên nhóm: BeyondTheHorizon
 - Mã thành viên (ba chữ số):101, 102, 103, 104
-- Người điều phối:
+- Người điều phối: 102
 - Người review bản cuối:
 - Commit chốt bài (điền ở kênh nộp sau khi commit):
 
