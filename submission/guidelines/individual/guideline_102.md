@@ -39,7 +39,11 @@ Box ôm sát phần nhìn thấy; vật bị che; vật bị cắt mép ảnh; p
 ## 4. Ca khó
 | Ảnh | Tình huống | Rule ID | Quyết định | Lý do |
 |---|---|---|---|---|
-| img_0xx | | | | |
+| img_011 |   Xe mô hình         |     5    |     Không gán       |   Xe không phải xe thật    |
+| img_017 |   Tượng người cưỡi ngựa        |     5    |     Không gán       |   Tượng không phải người thật.    |
+| img_020 |   Ảnh phản chiếu qua gương       |     5    |     Không gán       |   Ảnh chiếu qua gương    |
+| img_021 |   Quá nhiều người/phương tiện      |     6    |     Không gán       |   Nhiều người cùng đứng đợi đèn xanh    |
+| img_038 |   Xe đồ chơi      |     5    |     Không gán       |   Xe đồ chơi    |
 
 Nếu chưa chốt, đánh dấu `can_review` trên box hoặc ghi vấn đề cấp ảnh. Dùng mã quy tắc trong nhật ký QC.
 
