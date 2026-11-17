@@ -1,0 +1,10 @@
+case_id,image,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline,nguoi_chot,phieu_sua,kiem_lai,pham_vi
+C001,img_009.jpg,Phân loại box bao người lái thành rider; kiểm tra có box motorcycle riêng cho xe,R-02,v1.1,AI draft,Sửa lớp motorcycle thành rider nếu box đúng phần cơ thể; bảo đảm xe có box riêng,AI second-pass review; not human sign-off,anh
+C002,img_012.jpg,Pickup thùng mở thuộc car; chỉnh box ôm thân xe và loại hàng hóa khỏi box,R-09,v1.1,AI draft,Đổi truck thành car; chỉnh box theo phần thân xe nhìn thấy,AI second-pass review; not human sign-off,anh
+C003,img_021.jpg,Tách vùng đang gộp người và xe thành box rider riêng cùng box motorcycle theo R-02,R-02,v1.1,AI draft,Kiểm tra từng người trên xe; tách box người và xe,AI second-pass review; not human sign-off,anh
+C004,img_022.jpg,Xe máy gắn sidecar được phân loại three_wheeler theo R-09,R-09,v1.1,AI draft,Đổi motorcycle thành three_wheeler; kiểm tra box riêng cho người ngồi/lái,AI second-pass review; not human sign-off,lo
+C005,img_028.jpg,Pickup thùng mở thuộc car; tượng ngựa chở trên xe không phải phần của xe và không gán box,R-09,v1.1,AI draft,Đổi truck thành car; chỉnh box xe để loại phần tượng ngựa; không gán tượng theo R-04,AI second-pass review; not human sign-off,anh
+C006,img_031.jpg,Phân loại box bao người lái thành rider; kiểm tra có box motorcycle riêng cho xe,R-02,v1.1,AI draft,Sửa lớp motorcycle thành rider nếu box đúng phần cơ thể; bảo đảm xe có box riêng,AI second-pass review; not human sign-off,anh
+C007,img_034.jpg,Tách box người lái thành rider và giữ box motorcycle riêng theo R-02,R-02,v1.1,AI draft,Sửa lớp theo phần cơ thể; kiểm tra box motorcycle riêng,AI second-pass review; not human sign-off,anh
+C008,img_034.jpg,Tách box người lái thành rider và giữ box motorcycle riêng theo R-02,R-02,v1.1,AI draft,Sửa lớp theo phần cơ thể; kiểm tra box motorcycle riêng,AI second-pass review; not human sign-off,anh
+C009,img_035.jpg,Tách box người lái thành rider và giữ box motorcycle riêng theo R-02,R-02,v1.1,AI draft,Sửa lớp theo phần cơ thể; kiểm tra box motorcycle riêng,AI second-pass review; not human sign-off,anh

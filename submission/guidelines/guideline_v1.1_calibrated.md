@@ -1,14 +1,13 @@
-# Guideline gán nhãn — v1.1 — Calibrated
+# Guideline gán nhãn — v1.1 — Calibrated (bản nháp)
 
-> Bản calibration kế thừa guideline nhóm v1.0. Chưa thêm quyết định calibration vì nhóm chưa hoàn tất bước xem các ca bất đồng.
+> Bản nháp kế thừa guideline nhóm v1.0. R-09 và các quyết định dưới đây là đề xuất từ rà soát ảnh, chưa được nhóm chốt; không dùng làm quy tắc cuối trước khi xác nhận.
 
 - Phiên bản: `v1.1`
 - Ngày: 2026-11-17
 - Nguồn nội dung: `guideline_v1.0_agreed.md`
-- Thành viên tham gia thống nhất: 101, 102, 103, 104
+- Thành viên tham gia thống nhất: đang chờ nhóm xác nhận
 
 ---
-
 
 ## 1. Mục tiêu
 - **Mục đích sử dụng**: Bộ nhãn bounding box (hộp chữ nhật 2D) dùng để huấn luyện và đánh giá mô hình nhận diện vật thể cho hệ thống xe tự lái (Autonomous Driving) và camera giám sát giao thông đô thị thông minh.
@@ -85,6 +84,11 @@
   - Đối tượng ở tiền cảnh nhìn rõ: gán bình thường.
   - Vùng nhòe chuyển động mạnh không nhận dạng được: vẽ box `ignore_region` + tick `can_review`.
 
+- **`R-09` (Ranh giới pickup và xe ba bánh có sidecar — đề xuất calibration)**:
+  - Pickup có thùng mở hoặc không có nắp thùng cao thuộc `car`; hàng hóa và vật chở không thuộc box của phương tiện. Box chỉ ôm phần thân xe nhìn thấy được.
+  - Xe máy gắn sidecar có cấu hình ba bánh được gán `three_wheeler`; người điều khiển/hành khách vẫn có box `rider` riêng theo `R-02`.
+  - Nội dung R-09 là bản đề xuất cần nhóm xác nhận trước khi xem là quy tắc đã chốt.
+
 ---
 
 ## 4. Bảng ca khó tổng hợp từ 40 ảnh
@@ -117,4 +121,4 @@
 |---|---|---|---|
 | `v0` | — | Bản khung sơ sài ban đầu từ giảng viên (6 lớp, không ngưỡng định lượng, không có ca khó). | Bắt đầu lab. |
 | `v1.0` | 2026-11-16 | Thống nhất 10 lớp: bổ sung `bus`, `three_wheeler`, `bicycle`, tách `rider` khỏi `person`; định lượng `occluded_level` theo mốc 30%, 60%, 90%; bổ sung quy tắc gắn mã `R-01` đến `R-08`; giải quyết triệt để ca xe chở xe (`img_002`), đám đông (`img_021`), hàng quá khổ (`img_035`) và loại trừ vật không thật. | Thảo luận và biểu quyết chốt mâu thuẫn giữa 4 thành viên (101, 102, 103, 104) ở Pha 2. |
-| `v1.1_calibrated` | 2026-11-17 | Chưa ghi nhận thay đổi calibration; bản này giữ nguyên quy tắc v1.0 cho đến khi nhóm chốt quyết định. | Sẽ cập nhật sau khi hoàn tất calibration. |
+| `v1.1` (draft) | 2026-11-17 | Đề xuất R-09 để làm rõ pickup thùng mở, hàng hóa chở theo và xe máy gắn sidecar sau rà soát 9 ca IAA. | Chờ nhóm xác nhận calibration_decisions.csv và phạm vi rà soát. |

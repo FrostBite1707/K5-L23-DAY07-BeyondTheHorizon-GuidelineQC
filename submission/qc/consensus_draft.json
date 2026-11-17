@@ -3,29 +3,14 @@
   "description": "Đồng thuận NHÁP tự động - chưa phải nhãn cuối",
   "guideline_taxonomy": "v1.0",
   "flagged_images": [
-   "img_002.jpg",
-   "img_003.jpg",
-   "img_006.jpg",
-   "img_008.jpg",
    "img_009.jpg",
-   "img_010.jpg",
    "img_012.jpg",
-   "img_013.jpg",
-   "img_016.jpg",
-   "img_019.jpg",
    "img_021.jpg",
    "img_022.jpg",
-   "img_023.jpg",
-   "img_024.jpg",
-   "img_026.jpg",
    "img_028.jpg",
-   "img_029.jpg",
    "img_031.jpg",
-   "img_032.jpg",
    "img_034.jpg",
-   "img_035.jpg",
-   "img_036.jpg",
-   "img_040.jpg"
+   "img_035.jpg"
   ]
  },
  "licenses": [],
@@ -519,8 +504,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -538,8 +523,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -557,8 +542,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -576,8 +561,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -595,8 +580,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -614,8 +599,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -633,8 +618,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -652,8 +637,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -671,8 +656,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -690,8 +675,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -709,8 +694,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -728,8 +713,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -747,8 +732,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -766,8 +751,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -785,8 +770,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -804,8 +789,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -937,8 +922,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -956,8 +941,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -975,8 +960,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -994,8 +979,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1013,8 +998,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1032,8 +1017,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1051,8 +1036,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1165,8 +1150,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1203,8 +1188,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1222,8 +1207,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1241,8 +1226,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1260,8 +1245,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1279,8 +1264,8 @@
    "attributes": {
     "occluded_level": "3",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1298,8 +1283,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1317,8 +1302,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1792,8 +1777,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1849,8 +1834,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1868,8 +1853,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1963,8 +1948,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -1982,8 +1967,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2001,8 +1986,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2020,8 +2005,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2229,8 +2214,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2248,8 +2233,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2267,8 +2252,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2286,8 +2271,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2343,8 +2328,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2362,8 +2347,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2419,8 +2404,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2438,8 +2423,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2457,8 +2442,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2476,8 +2461,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2495,8 +2480,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2514,8 +2499,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2628,8 +2613,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2666,8 +2651,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2685,8 +2670,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2704,8 +2689,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2723,8 +2708,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2761,8 +2746,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2780,8 +2765,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2799,8 +2784,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2818,8 +2803,8 @@
    "attributes": {
     "occluded_level": "3",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2837,8 +2822,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2856,8 +2841,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2875,8 +2860,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2894,8 +2879,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2913,8 +2898,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -2932,8 +2917,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3160,8 +3145,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3198,8 +3183,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3236,8 +3221,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3255,8 +3240,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3274,8 +3259,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3331,8 +3316,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3350,8 +3335,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3673,8 +3658,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3692,8 +3677,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3730,8 +3715,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3749,8 +3734,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3768,8 +3753,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3787,8 +3772,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3882,8 +3867,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -3901,8 +3886,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4148,8 +4133,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4167,8 +4152,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4186,8 +4171,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4243,8 +4228,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4262,8 +4247,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4395,8 +4380,8 @@
    "attributes": {
     "occluded_level": "3",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4699,8 +4684,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4718,8 +4703,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4737,8 +4722,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4756,8 +4741,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4775,8 +4760,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4794,8 +4779,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4813,8 +4798,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -4985,7 +4970,7 @@
     "occluded_level": "1",
     "truncated": "yes",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -5042,7 +5027,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -5061,7 +5046,7 @@
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -5364,8 +5349,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5383,8 +5368,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5402,8 +5387,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5459,8 +5444,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5478,8 +5463,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5630,8 +5615,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5649,8 +5634,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5668,8 +5653,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -5687,8 +5672,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6067,8 +6052,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6086,8 +6071,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6105,8 +6090,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6124,8 +6109,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6162,8 +6147,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6181,8 +6166,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6219,8 +6204,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6238,8 +6223,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6276,8 +6261,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6295,8 +6280,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6314,8 +6299,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6333,8 +6318,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6352,8 +6337,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6371,8 +6356,8 @@
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6390,8 +6375,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6409,8 +6394,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6428,8 +6413,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6447,8 +6432,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6466,8 +6451,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6485,8 +6470,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6504,8 +6489,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6561,8 +6546,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6580,8 +6565,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6637,8 +6622,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6656,8 +6641,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6694,8 +6679,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6713,8 +6698,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6732,8 +6717,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6751,8 +6736,8 @@
    "attributes": {
     "occluded_level": "3",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6770,8 +6755,8 @@
    "attributes": {
     "occluded_level": "3",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6827,8 +6812,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6922,8 +6907,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6941,7 +6926,7 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
+    "can_review": false,
     "needs_calibration": true
    }
   },
@@ -6960,7 +6945,7 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
+    "can_review": false,
     "needs_calibration": true
    }
   },
@@ -6979,8 +6964,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -6998,8 +6983,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7017,8 +7002,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7036,8 +7021,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7055,8 +7040,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7074,8 +7059,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7093,8 +7078,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7112,8 +7097,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7131,8 +7116,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7150,8 +7135,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7207,8 +7192,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7226,8 +7211,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7473,8 +7458,8 @@
    "attributes": {
     "occluded_level": "1",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7492,8 +7477,8 @@
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7511,8 +7496,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7530,8 +7515,8 @@
    "attributes": {
     "occluded_level": "3",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7568,8 +7553,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7587,8 +7572,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7606,8 +7591,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7625,8 +7610,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -7644,8 +7629,8 @@
    "attributes": {
     "occluded_level": "3",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -8119,8 +8104,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -8138,8 +8123,8 @@
    "attributes": {
     "occluded_level": "1",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -8157,8 +8142,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -8176,8 +8161,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -8195,8 +8180,8 @@
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   },
   {
@@ -8233,8 +8218,8 @@
    "attributes": {
     "occluded_level": "2",
     "truncated": "yes",
-    "can_review": true,
-    "needs_calibration": true
+    "can_review": false,
+    "needs_calibration": false
    }
   }
  ]

@@ -15,10 +15,10 @@
     "submission/taxonomy.json": "5cc1aa18da3523f10aa332bb1e3d7e54b7ae85bbebcfa6a0a9e2f88dae29d6c8",
     "submission/guidelines/guideline_v1.0_agreed.md": "5fabaf42239d389b7343c0c1a88060cca5ae8091551c7b921326386e140919c6",
     "submission/qc/assignment.csv": "32ffb6c04a2f272b46563f8cfb9e9684462290c1de7cefe38621eacb0cce2df1",
-    "submission/labels/101.json": "fba175c9c8a46a0a51a6f40b7e1c1aea9eabf8da89332cc264e12445dc159922",
-    "submission/labels/102.json": "31cf7cc345c4935ac6c39d2934b32ff52aca74105ae8f001151f661c52a8a22e",
-    "submission/labels/103.json": "44f0fa94d96a0f67e18f8dbeddede134333d0519e96dff9c68f278dcfba5c92c",
-    "submission/labels/104.json": "0bd77ba6388ecdfbcc7fc5194142a9a03fef42423e5017158e44f335c0bdd33d",
+    "submission/labels/101.json": "d4193da7fe4facd72a759212f1845c928dfcbae81746781552477975bafa1de9",
+    "submission/labels/102.json": "272c2064183ed8d110221b53a272d6d083b1caa9d0763802e3b652d203b61219",
+    "submission/labels/103.json": "383e2d30c64c9f05786bdb88c8050c67d72df5c34bf59f11fde08d65e09c60b7",
+    "submission/labels/104.json": "98702411c8b219bf1f9e53eb9d3a33a206f172b24191d10802e831adbca86231",
     "data/images/img_001.jpg": "74b15d37b53d99d6cb8b3f7648d064ff89fedf0662df5ca1594c2c9c8454ba88",
     "data/images/img_002.jpg": "7cfa98eb24c504aa15496a82a714e28cc318447d77d0cb3881f91d649374d3de",
     "data/images/img_003.jpg": "8c2682682b89753bfa9de78b9dea93abb91937d2baed53fbf8c9fce6aa6a604a",
@@ -61,9 +61,9 @@
     "data/images/img_040.jpg": "e16ee9a3cfe6ea33457e7562b7f7d5bea9f63eee5cce42180ba25282dc004e95"
   },
   "artifacts": {
-    "consensus_draft.json": "5469d8a4366725359dc19b832dca43638d593d38dac1e55a6b048b8760f430ff",
-    "flagged_images.txt": "af6f6ab9e13c4b769fc7c734c7aebcea284a29bd999f12b88ba9d8e02a21338f",
-    "calibration_candidates.csv": "e6a0933a36d4a9a5479bb53d0ac64456df22d3525a7f6d9d05b4ac88ff60b36a"
+    "consensus_draft.json": "db168ac600ecbe502cf42ed4c7440eca97096378bc927dbc4292b9782c307c4a",
+    "flagged_images.txt": "59a4f93e73cfc60df9b27093e23f436f8bc5e6f0ba0ac93f5c84a2f659ba306a",
+    "calibration_candidates.csv": "00cdacfe11a29b79cb4203c8d2e39b9b670abccf00cefe39f71375624af48f14"
   },
   "overall": {
     "n_images": 40,
@@ -72,7 +72,7 @@
     "n_unmatched_b": 0,
     "n_skipped_in_ignore": 0,
     "mean_iou": 0.9349994884692738,
-    "class_agreement": 0.9685990338164251,
+    "class_agreement": 0.9782608695652174,
     "attr_agreement": {
       "occluded_level": 1.0,
       "truncated": 1.0
@@ -107,15 +107,15 @@
       "n_unmatched_b": 0,
       "n_skipped_in_ignore": 0,
       "mean_iou": 0.9349984224160952,
-      "class_agreement": 0.9130434782608695,
+      "class_agreement": 0.9565217391304348,
       "attr_agreement": {
         "occluded_level": 1.0,
         "truncated": 1.0
       },
       "n_below_iou_thr": 0,
       "iou_pass": true,
-      "class_pass": false,
-      "pass": false
+      "class_pass": true,
+      "pass": true
     },
     "101|104": {
       "n_images": 5,
@@ -175,21 +175,20 @@
       "n_unmatched_b": 0,
       "n_skipped_in_ignore": 0,
       "mean_iou": 0.9349986084583958,
-      "class_agreement": 0.926829268292683,
+      "class_agreement": 0.9512195121951219,
       "attr_agreement": {
         "occluded_level": 1.0,
         "truncated": 1.0
       },
       "n_below_iou_thr": 0,
       "iou_pass": true,
-      "class_pass": false,
-      "pass": false
+      "class_pass": true,
+      "pass": true
     }
   },
-  "n_issues": 339,
+  "n_issues": 9,
   "issues_by_type": {
-    "co_can_review": 326,
-    "sai_lop": 13
+    "sai_lop": 9
   },
-  "n_flagged_images": 23
+  "n_flagged_images": 8
 }

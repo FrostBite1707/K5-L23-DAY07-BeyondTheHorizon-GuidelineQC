@@ -1,4 +1,4 @@
 {
-  "kind": "editorial",
-  "summary": "Tạm khởi tạo để chạy quy trình calibration; cập nhật loại và nội dung thay đổi sau khi nhóm chốt các quyết định."
+  "kind": "semantic",
+  "summary": "Đề xuất R-09 làm rõ cách gán xe máy có sidecar thành three_wheeler và cách phân biệt pickup với truck; đây là bản nháp chờ nhóm xác nhận. Nếu giữ thay đổi phân lớp sidecar, cần rà lại toàn bộ lô 40 ảnh."
 }
