@@ -17,7 +17,7 @@
     "submission/qc/assignment.csv": "32ffb6c04a2f272b46563f8cfb9e9684462290c1de7cefe38621eacb0cce2df1",
     "submission/labels/101.json": "a895e6efe74a9b1b1bf6c18cbe93ac97ce83cd16917dbb93eba2945c037374ec",
     "submission/labels/102.json": "94ca0c1858e0b0ec813353b0735fc8bc2e447fdf6787d87a22f67aaf06be6d33",
-    "submission/labels/103.json": "8e91e623938868ea7ff229a3319d50f37a244a87d3f66eb70f39fc2ed54ea6d3",
+    "submission/labels/103.json": "58d46b8c68ae2e02e24c99b5605db32476a04a60b8718daf1fab13b919cb9835",
     "submission/labels/104.json": "63c3b438a807da2b6914ffba503a88f1b6bf6a1e88c821f8d51ab5abde13815d",
     "data/images/img_001.jpg": "74b15d37b53d99d6cb8b3f7648d064ff89fedf0662df5ca1594c2c9c8454ba88",
     "data/images/img_002.jpg": "7cfa98eb24c504aa15496a82a714e28cc318447d77d0cb3881f91d649374d3de",
@@ -61,23 +61,23 @@
     "data/images/img_040.jpg": "e16ee9a3cfe6ea33457e7562b7f7d5bea9f63eee5cce42180ba25282dc004e95"
   },
   "artifacts": {
-    "consensus_draft.json": "32ab11b18dc82861649cff91fc4717872ecf635e9356a7f82c25fb8afb62e349",
+    "consensus_draft.json": "92fe8504a903d8a9632e0e501625c5203a9557b3a403613103ef4c5848269301",
     "flagged_images.txt": "a2e27f51cefd7639337773fa09fea2739a07c3c707459af5b47db226718cd85c",
-    "calibration_candidates.csv": "0ad94071ce8c0901918257991f9bdacb3415fc16079a93ae87bb37d57d2d6132"
+    "calibration_candidates.csv": "82cd286484376e552218545134efb8b727fcc04319efb01de15afce3d9f408b4"
   },
   "overall": {
     "n_images": 40,
-    "n_matched_pairs": 260,
-    "n_unmatched_a": 90,
-    "n_unmatched_b": 58,
-    "n_skipped_in_ignore": 19,
-    "mean_iou": 0.8268463179576364,
-    "class_agreement": 0.8884615384615384,
+    "n_matched_pairs": 265,
+    "n_unmatched_a": 92,
+    "n_unmatched_b": 60,
+    "n_skipped_in_ignore": 11,
+    "mean_iou": 0.8253176026742107,
+    "class_agreement": 0.8867924528301887,
     "attr_agreement": {
-      "occluded_level": 0.5153846153846153,
-      "truncated": 0.8961538461538462
+      "occluded_level": 0.5132075471698113,
+      "truncated": 0.8981132075471698
     },
-    "n_below_iou_thr": 118,
+    "n_below_iou_thr": 122,
     "iou_pass": false,
     "class_pass": false,
     "pass": false
@@ -102,18 +102,18 @@
     },
     "101|103": {
       "n_images": 9,
-      "n_matched_pairs": 42,
-      "n_unmatched_a": 31,
-      "n_unmatched_b": 0,
-      "n_skipped_in_ignore": 18,
-      "mean_iou": 0.8546619077528438,
-      "class_agreement": 0.8571428571428571,
+      "n_matched_pairs": 45,
+      "n_unmatched_a": 35,
+      "n_unmatched_b": 2,
+      "n_skipped_in_ignore": 11,
+      "mean_iou": 0.8446748281955074,
+      "class_agreement": 0.8444444444444444,
       "attr_agreement": {
-        "occluded_level": 0.5238095238095238,
-        "truncated": 0.8809523809523809
+        "occluded_level": 0.4888888888888889,
+        "truncated": 0.8888888888888888
       },
-      "n_below_iou_thr": 11,
-      "iou_pass": true,
+      "n_below_iou_thr": 14,
+      "iou_pass": false,
       "class_pass": false,
       "pass": false
     },
@@ -136,17 +136,17 @@
     },
     "102|103": {
       "n_images": 5,
-      "n_matched_pairs": 22,
-      "n_unmatched_a": 24,
-      "n_unmatched_b": 3,
+      "n_matched_pairs": 24,
+      "n_unmatched_a": 22,
+      "n_unmatched_b": 2,
       "n_skipped_in_ignore": 0,
-      "mean_iou": 0.816401318180749,
-      "class_agreement": 0.7727272727272727,
+      "mean_iou": 0.8156409956866018,
+      "class_agreement": 0.7916666666666666,
       "attr_agreement": {
-        "occluded_level": 0.5,
-        "truncated": 0.7272727272727273
+        "occluded_level": 0.5416666666666666,
+        "truncated": 0.75
       },
-      "n_below_iou_thr": 11,
+      "n_below_iou_thr": 12,
       "iou_pass": false,
       "class_pass": false,
       "pass": false
@@ -172,8 +172,8 @@
       "n_images": 6,
       "n_matched_pairs": 22,
       "n_unmatched_a": 0,
-      "n_unmatched_b": 19,
-      "n_skipped_in_ignore": 1,
+      "n_unmatched_b": 20,
+      "n_skipped_in_ignore": 0,
       "mean_iou": 0.8157065187085037,
       "class_agreement": 0.7272727272727273,
       "attr_agreement": {
@@ -186,14 +186,14 @@
       "pass": false
     }
   },
-  "n_issues": 614,
+  "n_issues": 628,
   "issues_by_type": {
-    "bo_sot_thua": 125,
-    "iou_thap": 118,
-    "sai_thuoc_tinh": 136,
+    "bo_sot_thua": 126,
+    "iou_thap": 122,
+    "sai_thuoc_tinh": 139,
     "co_can_review": 166,
-    "bat_dong_ignore": 40,
-    "sai_lop": 29
+    "bat_dong_ignore": 45,
+    "sai_lop": 30
   },
   "n_flagged_images": 34
 }
